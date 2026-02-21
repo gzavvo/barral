@@ -1,0 +1,78 @@
+body {
+  font-family: monospace;
+}
+
+img {
+  max-width: 100%;
+}
+
+#portrait {
+  width: 80%;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#myname {
+  font-size: 3em;
+  font-weight: bold;
+  line-height: 0.8;
+  margin: 0;
+
+  align-self: center;
+
+}
+
+.menu li {
+  list-style: none;
+}
+
+.menu ul {
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 100px;
+}
+
+.grid {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.projectGrid {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr;
+  gap: 50px;
+}
+
+.linkToProject {
+  display: block;
+  aspect-ratio: 1 / 1;
+  text-align: center;
+}
+
+.linkToProject img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover
+}
+
+.linkToProject p {
+  display: none;
+}
+
