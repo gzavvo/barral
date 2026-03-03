@@ -7,10 +7,14 @@ body {
 
 img {
   max-width: 100%;
+  padding: 50px 0;
 }
 
 p {
-  max-width: 500px;
+  line-height: 1.5;
+}
+
+li {
   line-height: 1.5;
 }
 
@@ -85,6 +89,10 @@ header {
   width: 100%;
   grid-template-columns: 1fr;
   gap: 50px;
+}
+
+#minusta {
+  max-width: 500px;
 }
 
 #cv {
