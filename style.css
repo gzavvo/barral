@@ -1,13 +1,17 @@
 body {
-  margin: 50px auto;
-  padding: 20px;
-  font-family: monospace;
+  margin: 0 auto;
+  padding: 0 20px;
   max-width: 830px;
+  min-height: 100vh;
+
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+
+  font-family: monospace;
 }
 
 img {
   max-width: 100%;
-  padding: 50px 0;
 }
 
 p {
@@ -36,12 +40,20 @@ li {
 #portrait {
   width: 80%;
   max-width: 200px;
+  padding: 50px 0;
 }
 
 header {
   display: grid;
   grid-template-columns: 1fr 1fr;
+
+  margin-top: 50px;
   margin-bottom: 100px;
+}
+
+footer {
+  text-align: center;
+  margin: 20px 0;
 }
 
 #myname {
@@ -84,12 +96,6 @@ header {
   }
 }
 
-.grid-project {
-  display: grid;
-  width: 100%;
-  grid-template-columns: 1fr;
-  gap: 50px;
-}
 
 #minusta {
   max-width: 500px;
@@ -116,3 +122,5 @@ header {
     margin-bottom: 0px;
   }
 }
+
+
